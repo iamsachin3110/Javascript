@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Mahadev</title>
+</head>
+
+<body>
+    <div id="custom">
+        <H1>Har Har Mahadev.!</H1>
+        <p id="custom_paragraph">
+            """
+            Har Har mahadev to all the developers..
+            Have a good day.
+
+            Thanks & regards
+            sachin
+            """
+        </p>
+    </div>
+    <script>
+        let god = "Mahadev"
+        let i = 1;
+        while (i <= 3) {
+            i += 1
+            let god_name = prompt('Type God name here..');
+            console.log("God and god name ==", god, god_name, i)
+            if (god_name !== god) {
+                let god_name = prompt('Type God name here..');
+            }
+            if (god_name === god) {
+                alert("Accepted")
+                break
+            }
+            if (i === 3) {
+                document.getElementById('custom').hidden = true
+            }
+        }
+    </script>
+
+</body>
+
+</html>
