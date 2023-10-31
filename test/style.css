@@ -1,0 +1,85 @@
+/* html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+} */
+body {
+  background-image: url('shiva.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ELEMENTS STYLE */
+.greetings {
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 2%;
+  position: absolute;
+  color: rgb(98, 143, 222);
+  width: 100%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name_greetings {
+  background-color: transparent;
+  color: rgb(98, 143, 222);
+  text-shadow: 10px;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.quote_button {
+  font-size: 3rem;
+  margin-top: 5%;
+  width: 100%;
+  top: 5%;
+  /* transform: translate(-50%, -50%); */
+}
+
+
+.thought {
+  margin-top: 5%;
+  color: whitesmoke;
+  margin-left: 20%;
+  font-size: 1rem;
+  top: 10%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background-color: none;
+  color: grey;
+  font-size: 2rem;
+  padding-top: 2%;
+  font-family: inherit;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.overlay {
+  border: 1px solid;
+  outline: 1px;
+  background-color: white;
+  /* color: grey; */
+  font-size: 2rem;
+  position: absolute;
+  margin-left: 20%;
+  padding-top: 2%;
+  font-family: inherit;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  position: center;
+}

@@ -1,0 +1,7 @@
+Let, const and var
+----------------------
+let - can be reassigned. available only for that particular scope of function, and not gloable variable. ex: let age = 30;
+Const -  Used at time where we don't require to change its value once assigned. ex: const BirthYear = 1998;
+Var - re-assigned the values and its gloable varibale. ex: var firstJob = "developer";
+
+

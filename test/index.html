@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pop-Up Details</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="greetings">Har Har Mahadev.!!<br /><input type="text" class="name_greetings"
+        placeholder="Name .."></input>
+    </h1>
+    <br />
+    <br />
+  </header>
+
+  <div class="quote_button" style="inline-size: auto;">
+    <button class="btn" id="thought_1">1. Quote</button>
+    <button class="btn" id="thought_2">2. Quote</button>
+    <button class="btn" id="thought_3">3. Quote</button>
+  </div>
+
+  <div class="overlay" id="first_quote" style="display: none;">
+    <button class="close" style="margin-left: 97%;" id="close_button">&times;</button>
+    <h3>Thought Of The Day</h3>
+    <p>“You can't wait for inspiration. You have to go after it with a club..”</p>
+  </div>
+
+  <div class="overlay" id="second_quote" style="display: none;">
+    <button class="close" style="margin-left: 97%;" id="close_button">&times;</button>
+    <h3>Thought Of The Day</h3>
+    <p>“If your voice is high, only a few people will hear. If your thought is high, then many people will listen..” ~
+      Invajy</p>
+  </div>
+
+  <div class="overlay" id="third_quote" style="display: none;">
+    <button class="close" style="margin-left: 97%;" id="close_button">&times;</button>
+    <h3>Thought Of The Day</h3>
+    <p>“The bad thing is that the time is short… and the good thing is that there is still some time...” ~ Invajy
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
